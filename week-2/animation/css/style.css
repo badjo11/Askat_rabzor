@@ -1,0 +1,87 @@
+.block-animation {
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.block-animation:hover {
+    background-color: red;
+}
+
+.block-animation2 {
+    width: 150px;
+    height: 150px;
+    background-color: darkgoldenrod;
+    margin: 20px;
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* transition-timing-function:; */
+}
+
+.block-animation2:hover {
+    width: 300px;
+    height: 300px;
+    background-color: darkgreen;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: darkmagenta;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        background-color: darkred;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+p {
+    /* animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: slideIn 5s infinite;
+}
+
+@keyframes slideIn {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: -100%;
+        width: 100%;
+    }
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100%;
+    animation: pulsing 3s infinite;
+}
+
+@keyframes pulsing {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+    50% {
+        background-color: darkred;
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(0.5, 0.5);
+    }
+}

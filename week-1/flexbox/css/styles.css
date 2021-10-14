@@ -1,0 +1,113 @@
+/* .blocks {
+    width: 90px;
+    height: 90px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    /* text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+
+/* }
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+
+/* background-color: yellowgreen; */
+
+/* flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-end; 
+} 
+*/
+
+/* #block3 {
+    height: 60px;
+} */
+
+/* .inner_block {
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+    border-radius: 50%;
+} */
+
+/* #block1 {
+    align-self: flex-start;
+}
+
+
+#block4 {
+    order: -1;
+}
+
+#block6 {
+    order: -2;
+} */
+
+.javascript {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
+
+.python {
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    display: none;
+}
+
+.php {
+    width: 200px;
+    height: 200px;
+    background-color: forestgreen;
+    display: none;
+}
+
+@media screen and (max-width: 944px) {
+    .javascript {
+        display: none;
+    }
+    .python {
+        display: block;
+    }
+}
+
+@media all and (max-width: 722px) {
+    .python {
+        display: none;
+    }
+    .php {
+        display: block;
+    }
+}
+
+@media all and (min-width: 1050px) {
+    .python, .php {
+        display: block;
+    }
+}
+
+div {
+    width: 600px;
+    height: 600px;
+    background-color: yellow;
+    font-size: 100px;
+}
+
+@media all and (max-width: 700px) {
+    div {
+        width: 50%;
+        height: 20%;
+    }
+}

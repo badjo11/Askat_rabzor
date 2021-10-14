@@ -1,0 +1,31 @@
+.main {
+    width: 400px;
+    height: 600px;
+    margin: auto;
+}
+
+.textBlock {
+    width: 400px;
+    height: 200px;
+    background-color: antiquewhite;
+    font-size: 24px;
+}
+
+.block {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+.btn_input {
+    margin: 0;
+    width: 100px;
+    /* border: 0; */
+    background-color: lightcyan;
+    font-size: 40px;
+}
+
+.row_in {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- БЛОК -->
+    <!-- Должен отвечать на вопрос: Что это? -->
+    <!-- Это не её состояние. Какой? Как выглядит? -->
+
+    <!-- Верно! -->
+    <div class="warning"></div>
+
+    <!-- Неверно!!! -->
+    <div class="yellow-warning"></div>
+
+    <div class="nav-left">
+        <div class="logo"></div>
+    </div>
+
+    <!-- Элемент -->
+    <!-- Должен отвечать на вопрос: Что это? -->
+    <!-- Это не её состояние. Какой? Как выглядит? -->
+    <!-- Имя элемента отделяется от имени блока двумя подчеркиваниями(__) -->
+
+    <form class="search-form">
+        <input class="search-form__input" type="text">
+        <button class="search-form__btn">btn</button>
+    </form>
+
+    <div class="search-form">
+        <div class="search-form__content">
+            <input type="text" class="search-form__input">
+            <button class="search-form__button">add</button>
+            <input type="text" class="search-form__content-input">
+            <button class="search-form__content-button">add</button>
+        </div>
+    </div>
+
+    <!-- элемент необязательный компонент блока. Не у всех блоков должны быть элементы -->
+
+    <!-- Неверно -->
+    <form class="search-form"></form>
+    <input type="text" class="search-form__input">
+
+    <!-- Блок search-form -->
+    <form class="search-form">
+        <!-- Блок input -->
+        <input type="text" class="input">
+
+        <!-- Блок button -->
+        <button class="button">Search</button>
+    </form>
+
+    <!-- Модификатор -->
+    <!-- Должен отвечать на вопрос: Какой? -->
+    <!-- Это состояние. Какой? Как выглядит -->
+    <!-- Имя модификатора отделяется от имени блока или элемента одним подчеркиванием -->
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0081cb33;
+}
+
+.desk {
+    width: 500px;
+    height: 25px;
+    background-color: black;
+    border-radius: 30px;
+    transform: rotate(-15deg);
+    /* position: relative; */
+    animation-name: desk-move;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    bottom: 100px;
+    left: 400px;
+    animation-name: ball-move;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.ball::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+@keyframes ball-move {
+    from {
+        transform: rotate(360deg);
+        left: 400px;
+    }
+    50% {
+        transform: rotate(0deg);
+        left: 0;
+    }
+    to {
+        transform: rotate(360deg);
+        left: 400px;
+    }
+}
+
+@keyframes desk-move {
+    from {
+        transform: rotate(-15deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    to {
+        transform: rotate(-15deg);
+        transform: matrix();
+    }
+}

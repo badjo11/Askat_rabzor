@@ -1,0 +1,10 @@
+.column-1 {
+    border: 2px solid red !important;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    background-color: blanchedalmond;
+}

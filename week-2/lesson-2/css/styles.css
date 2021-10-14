@@ -1,0 +1,117 @@
+h1 {
+    color: red;
+    /* название анимации */
+    animation-name: size;
+    /* время действия анимации  */
+    animation-duration: 4s;
+    /* задержка перед запуском */
+    animation-delay: 1s;
+    /* ускорение  */
+    /* animation-timing-function: ease; */
+    /* Easy/ Анимация начинается медленно, разгонятся быстро, замедляется под конец */
+    /* animation-timing-function: ease-in; */
+    /* easy-in. Анимация начинается медленно, а затем плавно  ускоряется в конце */
+    /* animation-timing-function: ease-out; */
+    /* easy-out. Анимация начитнается быстро, а затем плавно замедляется в конце */
+    animation-timing-function: ease-in-out;
+    /* easy-in-out. Анимация начинается медленно и медленно заканчивается */
+    /* количество итераций */
+    animation-iteration-count: infinite;
+    /* направление анимации */
+    /* animation-direction: alternate; */
+    /* Каждый нечетный повтор цикла анимации воспроизводится в нормальном направлении, а каждый чётный в обратном направлении */
+    /* animation-direction: reverse; */
+    /* Все анимации в обратном направлении */
+    animation-direction: alternate-reverse;
+    /* Каждый  нечетный повтор воспроизводится в обратном направлении, а каждый четный в нормальном направлении */
+}
+
+@keyframes size {
+    from {
+        font-size: 12px;
+    }
+    50% {
+        font-size: 40px;
+    }
+    to {
+        font-size: 12px;
+    }
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+
+.ball {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.ball:nth-child(2) {
+    /* animation-delay: .1s; */
+    animation-timing-function: ease-in-out;
+}
+
+.ball:nth-child(3) {
+    /* animation-delay: .3s; */
+    animation-timing-function: ease;
+}
+
+.ball:nth-child(4) {
+    /* animation-delay: .5s; */
+    animation-timing-function: ease-in;
+}
+
+.ball:nth-child(5) {
+    /* animation-delay: .7s; */
+    animation-timing-function: ease-out;
+}
+
+.ball:nth-child(6) {
+    /* animation-delay: .9s; */
+    animation-timing-function: linear;
+}
+
+@keyframes slide {
+    from {
+        left: 0;
+        bottom: 0;
+    }
+    20% {
+        left: 300px;
+        bottom: 60px;
+    }
+    40% {
+        left: 0;
+        bottom: 120px;
+    }
+    60% {
+        left: 300px;
+        bottom: 180px;
+    }
+    80% {
+        left: 0;
+        bottom: 240px;
+    }
+    to {
+        left: 300px;
+        bottom: 300px;
+    }
+}

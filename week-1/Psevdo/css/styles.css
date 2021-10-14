@@ -1,0 +1,61 @@
+/* a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+button:hover {
+    display: none;
+}
+
+li:first-child {
+    background-color: brown;
+}
+
+li:last-child {
+    background-color: chartreuse;
+}
+
+li:nth-child(2) {
+    background-color: coral;
+} */
+
+.breadcrumbs {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.breadcrumbs li+li::before {
+    content: '/';
+    padding: 0 7px;
+}
+
+.breadcrumbs li::after {
+    content: '*';
+    padding: 0 7px;
+}
+
+button {
+    padding: 25 25px;
+    font-size: 28px;
+    text-align: center;
+    cursor: pointer;
+    background-color: darkcyan;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #888;
+    color: wheat;
+}
+
+button:hover {
+    background-color: rgb(16, 85, 85);
+}

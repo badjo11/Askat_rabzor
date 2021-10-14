@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+p {
+    background-color: red;
+    display: inline-block;
+    width: 300px;
+}
+
+span {
+    background-color: aqua;
+    display: block;
+    width: 300px;
+} */
+
+span:first-child {
+    color: blue;
+}
+
+span:last-child {
+    color: coral;
+}
+
+span:nth-child(2) {
+    color: greenyellow;
+}
+
+input:focus {
+    outline: none;
+}
+
+a:visited {
+    color: greenyellow;
+}
+
+a:link {
+    color: orangered;
+}
+
+a {
+    transition: 1s;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: orangered;
+}
+
+a:active {
+    color: black;
+}
+
+span::first-letter {
+    color: brown;
+    font-size: 200%;
+}
+
+p::first-letter {
+    color: brown;
+    font-size: 200%;
+}
+
+p::first-line {
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+#span-1::before {
+    content: 'Apple';
+}
+
+#p-2::after {
+    content: 'Notebook';
+}
+
+.main-block {
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background: darkslateblue;
+    /* opacity: 0.70; */
+    /* position: fixed; */
+    top: 0;
+    /* bottom: 0; */
+    position: sticky;
+    z-index: 2;
+}
+
+.content-block {
+    width: 100%;
+    height: 1600px;
+    background: firebrick;
+    position: relative;
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+    background: darkgreen;
+}
+
+.first-div {
+    padding-top: 100px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background: #000;
+    position: absolute;
+    /* right: 100px;
+    top: 0; */
+    bottom: 1000px;
+    left: 10px;
+    /* z-index: -1; */
+}

@@ -1,0 +1,226 @@
+.block {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.crcle {
+    border: 10px solid black;
+    border-radius: 80%;
+    height: 5px;
+    width: 50px;
+}
+
+svg {
+    width: 50px;
+    height: auto;
+    /* background-color: orangered; */
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    animation-name: dvd;
+    position: absolute;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* fill: purple; */
+    /* filter: invert(92%) sepia(68%) saturate(1617%) hue-rotate(183deg) brightness(109%) contrast(115%); */
+}
+
+@keyframes dvd {
+    0% {
+        /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
+        top: 0;
+        left: 30%;
+        fill: purple;
+    }
+    0.01% {
+        top: 0;
+        left: 30%;
+        fill: seagreen
+    }
+    7% {
+        /* filter: invert(52%) sepia(32%) saturate(4789%) hue-rotate(161deg) brightness(94%) contrast(101%); */
+        top: 70%;
+        left: 100%;
+        fill: seagreen;
+    }
+    7.01% {
+        fill: blue;
+        top: 70%;
+        left: 100%;
+    }
+    10% {
+        fill: blue;
+        /* filter: invert(21%) sepia(48%) saturate(6952%) hue-rotate(336deg) brightness(91%) contrast(96%); */
+        top: 100%;
+        left: 80%;
+        /* filter: invert(52%) sepia(32%) saturate(4789%) hue-rotate(161deg) brightness(94%) contrast(101%); */
+    }
+    10.01% {
+        fill: orange;
+        /* filter: invert(21%) sepia(48%) saturate(6952%) hue-rotate(336deg) brightness(91%) contrast(96%); */
+        top: 100%;
+        left: 80%;
+        /* filter: invert(52%) sepia(32%) saturate(4789%) hue-rotate(161deg) brightness(94%) contrast(101%); */
+    }
+    19% {
+        fill: orange;
+        top: 0;
+        left: 10%;
+        /* filter: invert(100%) sepia(53%) saturate(1314%) hue-rotate(169deg) brightness(103%) contrast(97%); */
+        /* filter: invert(21%) sepia(48%) saturate(6952%) hue-rotate(336deg) brightness(91%) contrast(96%); */
+    }
+    19.01% {
+        fill: red;
+        top: 0;
+        left: 10%;
+        /* filter: invert(100%) sepia(53%) saturate(1314%) hue-rotate(169deg) brightness(103%) contrast(97%); */
+        /* filter: invert(21%) sepia(48%) saturate(6952%) hue-rotate(336deg) brightness(91%) contrast(96%); */
+    }
+    22% {
+        fill: red;
+        top: 10%;
+        left: 0%;
+    }
+    22.01% {
+        fill: greenyellow;
+        top: 10%;
+        left: 0%;
+    }
+    27% {
+        fill: greenyellow;
+        top: 100%;
+        left: 70%;
+    }
+    27.01% {
+        fill: brown;
+        top: 100%;
+        left: 70%;
+    }
+    33% {
+        fill: brown;
+        top: 70%;
+        left: 100%;
+    }
+    33.01% {
+        fill: aqua;
+        top: 70%;
+        left: 100%;
+    }
+    40% {
+        fill: aqua;
+        top: 0;
+        left: 50%;
+    }
+    40.01% {
+        fill: peru;
+        top: 0;
+        left: 50%;
+    }
+    45% {
+        fill: peru;
+        top: 50%;
+        left: 0;
+    }
+    45.01% {
+        fill: goldenrod;
+        top: 50%;
+        left: 0;
+    }
+    50% {
+        fill: goldenrod;
+        top: 100%;
+        left: 40%;
+    }
+    50.01% {
+        fill: green;
+        top: 100%;
+        left: 40%;
+    }
+    56% {
+        fill: green;
+        top: 30%;
+        left: 100%;
+    }
+    56.01% {
+        fill: crimson;
+        top: 30%;
+        left: 100%;
+    }
+    61% {
+        fill: crimson;
+        top: 0;
+        left: 50%
+    }
+    61.01% {
+        fill: yellow;
+        top: 0;
+        left: 50%
+    }
+    68% {
+        fill: yellow;
+        top: 70%;
+        left: 0;
+    }
+    68.01% {
+        fill: blueviolet;
+        top: 70%;
+        left: 0;
+    }
+    74% {
+        fill: blueviolet;
+        top: 100%;
+        left: 20%;
+    }
+    74.01% {
+        fill: maroon;
+        top: 100%;
+        left: 20%;
+    }
+    80% {
+        fill: maroon;
+        top: 0;
+        left: 90%;
+    }
+    80.01% {
+        fill: chartreuse;
+        top: 0;
+        left: 90%;
+    }
+    86% {
+        fill: chartreuse;
+        top: 20%;
+        left: 100%;
+    }
+    86.01% {
+        fill: royalblue;
+        top: 20%;
+        left: 100%;
+    }
+    92% {
+        fill: royalblue;
+        top: 100%;
+        left: 60%;
+    }
+    92.01% {
+        fill: wheat;
+        top: 100%;
+        left: 60%;
+    }
+    96% {
+        fill: wheat;
+        top: 40%;
+        left: 0;
+    }
+    96.01% {
+        fill: purple;
+        top: 40%;
+        left: 0;
+    }
+    100% {
+        fill: purple;
+        top: 0;
+        left: 30%;
+    }
+}

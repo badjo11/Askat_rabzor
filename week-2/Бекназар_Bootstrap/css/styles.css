@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header img {
+    width: 100%;
+    height: auto;
+} */
+
+.usl-div {
+    width: 5rem;
+    height: 5rem;
+}
+
+.cl {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+#photo {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    background-color: #DFF9FB;
+    width: 80%;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+}
+
+/* .team-img {
+    width: 50%;
+    height: 200px;
+} */
