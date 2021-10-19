@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "task": "Buy milk"
+    },
+    {
+      "task": "Buy potato"
+    },
+    {
+      "task": "Buy eggs"
+    },
+    {
+      "task": "Clean the house"
+    }
+  ]
+}
