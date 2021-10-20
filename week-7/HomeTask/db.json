@@ -1,9 +1,9 @@
 {
   "contacts": [
     {
-      "name": "beknazar",
+      "name": "Badjo",
       "lname": "omurbek",
-      "number": "0501334411",
+      "number": "050133441",
       "id": 1
     },
     {
@@ -37,10 +37,16 @@
       "id": 6
     },
     {
-      "name": "sanjar",
-      "lname": "qwe",
+      "name": "Ice",
+      "lname": "Baby",
       "number": "93204230",
       "id": 7
+    },
+    {
+      "name": "das",
+      "lname": "dasd",
+      "number": "dasdasd",
+      "id": 8
     }
   ]
 }

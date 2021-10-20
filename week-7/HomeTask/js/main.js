@@ -1,6 +1,6 @@
 let currentPage = 1
-const API = `http://localhost:8000/contacts?_page=1&_limit=3`
-const SECOND_API = "http://localhost:8000/contacts"
+const API = `http://localhost:8080/contacts?_page=1&_limit=3`
+const SECOND_API = "http://localhost:8080/contacts"
 let productName = $("#product-name")
 let productlname = $("#product-lname")
 let btnSave = $('.btn-save')
@@ -169,7 +169,7 @@ btnSaveEdit.on('click', async (e) => {
     try {
         await axios.patch(`${SECOND_API}/${id}`, product)
         modal.modal('hide')
-        render(`http://localhost:8000/contacts?_page=${currentPage}&_limit=3`)
+        render(`http://localhost:8080/contacts?_page=${currentPage}&_limit=3`)
     } catch (e) {
         console.log(e)
     }

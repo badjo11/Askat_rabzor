@@ -1,0 +1,14 @@
+.elevator {
+    background-color: brown;
+    width: 300px;
+    position: relative;
+}
+
+.lift {
+    /* background-color: chartreuse; */
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    left: 125px;
+    top: 470px;
+}
