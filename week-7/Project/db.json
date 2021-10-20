@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "name": "Lenovo",
+      "price": "12000",
+      "desc": "Описание",
+      "image": "https://www.kns.ru/linkpics/lenovo-ideapad-v130-15ikb-81hn0112ru-1-small.jpg",
+      "id": 1
+    },
+    {
+      "name": "Macbook",
+      "price": "12300",
+      "desc": "Описание",
+      "image": "https://warehs.ru/upload/iblock/eb6/eb6c3a76bf9962cafea87a1d38e20567.jpg",
+      "id": 2
+    },
+    {
+      "name": "Acer Le",
+      "price": "4550",
+      "desc": "Описание",
+      "image": "https://becompact.ru/upload/iblock/c9e/c9eafcd76aa8b5e04bb737029bfdab5a.jpg",
+      "id": 3
+    },
+    {
+      "name": "Acer e5 ",
+      "price": "45500",
+      "desc": "Описание",
+      "image": "https://www.onlinetrade.ru/img/items/m/noutbuk_acer_aspire_es1_572_p0p5_pentium_4405u_8gb_2tb_dvd_rw_hd_graphics_510_15.6_fhd_linux_black_819090_1.jpg",
+      "id": 4
+    },
+    {
+      "name": "Acer ert",
+      "price": "99999",
+      "desc": "Описание",
+      "image": "https://a.allegroimg.com/original/115c04/4887ac03489a8f1d0e27fdd653be/Gamingowy-laptop-ACER-NITRO-i5-8GB-SSD256-1TB-W10",
+      "id": 5
+    },
+    {
+      "name": "Asus ROG",
+      "price": "8050",
+      "desc": "Описание",
+      "image": "https://ae01.alicdn.com/kf/HLB16GzgKmzqK1RjSZFLq6An2XXau/ASUS-ROG-GL504GS-Intel-i7-8750H-16Gb-1Tb-PCIE-NVME-512G-M-2-SSD.jpg",
+      "id": 6
+    },
+    {
+      "name": "ASUS",
+      "price": "23400",
+      "desc": "Описание",
+      "image": "https://img.mvideo.ru/Pdb/30057509b1.jpg",
+      "id": 7
+    }
+  ]
+}

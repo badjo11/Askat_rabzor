@@ -1,0 +1,46 @@
+{
+  "contacts": [
+    {
+      "name": "beknazar",
+      "lname": "omurbek",
+      "number": "0501334411",
+      "id": 1
+    },
+    {
+      "name": "beknazar",
+      "lname": "omurbek",
+      "number": "0501334411",
+      "id": 2
+    },
+    {
+      "name": "beknazar",
+      "lname": "omurbek",
+      "number": "0501334411",
+      "id": 3
+    },
+    {
+      "name": "beknazar",
+      "lname": "omurbek",
+      "number": "0501334412",
+      "id": 4
+    },
+    {
+      "name": "beknazar",
+      "lname": "omurbek",
+      "number": "0501334411",
+      "id": 5
+    },
+    {
+      "name": "sanjar",
+      "lname": "qwe",
+      "number": "93204230",
+      "id": 6
+    },
+    {
+      "name": "sanjar",
+      "lname": "qwe",
+      "number": "93204230",
+      "id": 7
+    }
+  ]
+}
