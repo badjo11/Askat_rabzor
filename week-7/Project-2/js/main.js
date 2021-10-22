@@ -17,6 +17,16 @@ function render() {
             word: "бутылка",
             desc: "Ёмкость для напитков",
         },
+        {
+            word: "транспорт",
+            desc: "Способ передвижения",
+        }, {
+            word: "компьютер",
+            desc: "техника",
+        }, {
+            word: "толстовка",
+            desc: "одежда",
+        },
     ]
     let randomObject = arrOfWords[Math.round(Math.random() * (arrOfWords.length - 1))]
     let word = randomObject.word
@@ -36,10 +46,11 @@ function render() {
     }
     // console.log(textWord)
     $('h3').text(`${desc}`)
+    $('body').off('keypress')
     $('body').keypress(function (e) {
         let letter = e.originalEvent.key
         // console.log(e.originalEvent)
-        // console.log(letter + " l")
+        console.log(letter + " l")
         // console.log('12')
         if (textWord.indexOf(letter) !== -1) {
             word.forEach((element, i) => {

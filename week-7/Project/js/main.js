@@ -111,13 +111,13 @@ async function render(url) {
 }
 render(API)
 next.on('click', (e) => {
-    // console.log(e.target.id)
+    console.log(e.target.id)
     let url = e.target.id
     render(url)
     currentPage++
 })
 prev.on('click', (e) => {
-    // console.log(e.target.id)
+    console.log(e.target.id)
     let url = e.target.id
     render(url)
     currentPage--

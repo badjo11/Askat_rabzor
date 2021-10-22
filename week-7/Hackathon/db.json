@@ -1,0 +1,43 @@
+{
+  "kpi": [
+    {
+      "fullName": "Bektemirova Ainura",
+      "phone": "0704200830",
+      "kpiArray": [
+        "50",
+        "79",
+        "88",
+        "97",
+        "79",
+        "95"
+      ],
+      "id": 4
+    },
+    {
+      "fullName": "Islam Amanov",
+      "phone": "0502666777",
+      "kpiArray": [
+        "70",
+        "78",
+        "61",
+        "82",
+        "77",
+        "95"
+      ],
+      "id": 5
+    },
+    {
+      "fullName": "Atai Madanov",
+      "phone": "0507432888",
+      "kpiArray": [
+        "70",
+        "79",
+        "61",
+        "82",
+        "70",
+        "100"
+      ],
+      "id": 6
+    }
+  ]
+}
